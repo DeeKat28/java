@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfb83aaa-0c77-4207-a8b4-0d3bd4e9327b" name="Default" comment="Lambda - check empty string">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java8/lambda/CheckEmptyString.java" afterDir="false" />
+    <list default="true" id="bfb83aaa-0c77-4207-a8b4-0d3bd4e9327b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/java8/lambda/StringToUpperAndLowerCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java8/lambda/CheckEmptyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java8/lambda/CheckEmptyString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckEmptyString.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckEmptyString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/CheckEmptyString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+            <state relative-caret-position="601">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Predicate.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Amazon Corretto/jdk1.8.0_382/src.zip!/java/util/function/Predicate.java">
+      <file leaf-file-name="StringToUpperAndLowerCase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/StringToUpperAndLowerCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            <state relative-caret-position="1188">
+              <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,6 +66,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/java8/lambda/SumOfTwoIntegers.java" />
         <option value="$PROJECT_DIR$/src/com/java8/lambda/CheckEmptyString.java" />
+        <option value="$PROJECT_DIR$/src/com/java8/lambda/StringToUpperAndLowerCase.java" />
       </list>
     </option>
   </component>
@@ -136,9 +140,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckEmptyString">
+  <component name="RunManager" selected="Application.StringToUpperAndLowerCase">
     <configuration name="CheckEmptyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java8.lambda.CheckEmptyString" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StringToUpperAndLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.lambda.StringToUpperAndLowerCase" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -203,9 +218,11 @@
     <list>
       <item itemvalue="Application.SumOfTwoIntegers" />
       <item itemvalue="Application.CheckEmptyString" />
+      <item itemvalue="Application.StringToUpperAndLowerCase" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringToUpperAndLowerCase" />
         <item itemvalue="Application.CheckEmptyString" />
         <item itemvalue="Application.SumOfTwoIntegers" />
       </list>
@@ -221,16 +238,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711780197473</updated>
-      <workItem from="1711780200899" duration="2057000" />
+      <workItem from="1711780200899" duration="3931000" />
     </task>
+    <task id="LOCAL-00001" summary="Lambda - check empty string">
+      <created>1711782826487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711782826487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2057000" />
+    <option name="totallyTimeSpent" value="3931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -282,6 +306,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Amazon Corretto/jdk1.8.0_382/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="408" column="17" selection-start-line="408" selection-start-column="17" selection-end-line="408" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Amazon Corretto/jdk1.8.0_382/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -291,8 +322,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/CheckEmptyString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        <state relative-caret-position="601">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/StringToUpperAndLowerCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

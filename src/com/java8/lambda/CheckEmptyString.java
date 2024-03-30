@@ -14,4 +14,9 @@ public class CheckEmptyString {
         System.out.println("\nString 2:" + str2);
         System.out.println("String 2 is empty: " + isEmptyString.test(str2));
     }
+
+    /*In the above exercise, we define a Predicate functional interface
+    with a lambda expression to check if a given string is empty.
+    The lambda expression uses the isEmpty() method of the String class to
+    determine if the string is empty.*/
 }
