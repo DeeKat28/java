@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb83aaa-0c77-4207-a8b4-0d3bd4e9327b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java8/lambda/StringToUpperAndLowerCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java8/lambda/AverageOfDoubles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java8/lambda/FilterEvenOddNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java8/lambda/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java8/lambda/SortStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/lambda/CheckEmptyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java8/lambda/CheckEmptyString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +39,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringToUpperAndLowerCase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringToUpperAndLowerCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/StringToUpperAndLowerCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+            <state relative-caret-position="462">
+              <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterEvenOddNumbers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/FilterEvenOddNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortStrings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/SortStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AverageOfDoubles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/AverageOfDoubles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveDuplicates.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/RemoveDuplicates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="891">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,6 +117,10 @@
         <option value="$PROJECT_DIR$/src/com/java8/lambda/SumOfTwoIntegers.java" />
         <option value="$PROJECT_DIR$/src/com/java8/lambda/CheckEmptyString.java" />
         <option value="$PROJECT_DIR$/src/com/java8/lambda/StringToUpperAndLowerCase.java" />
+        <option value="$PROJECT_DIR$/src/com/java8/lambda/FilterEvenOddNumbers.java" />
+        <option value="$PROJECT_DIR$/src/com/java8/lambda/SortStrings.java" />
+        <option value="$PROJECT_DIR$/src/com/java8/lambda/AverageOfDoubles.java" />
+        <option value="$PROJECT_DIR$/src/com/java8/lambda/RemoveDuplicates.java" />
       </list>
     </option>
   </component>
@@ -140,9 +194,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringToUpperAndLowerCase">
-    <configuration name="CheckEmptyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8.lambda.CheckEmptyString" />
+  <component name="RunManager" selected="Application.RemoveDuplicates">
+    <configuration name="AverageOfDoubles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.lambda.AverageOfDoubles" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FilterEvenOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.lambda.FilterEvenOddNumbers" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.lambda.RemoveDuplicates" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SortStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.lambda.SortStrings" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -154,17 +241,6 @@
     </configuration>
     <configuration name="StringToUpperAndLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java8.lambda.StringToUpperAndLowerCase" />
-      <module name="java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java8.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SumOfTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8.lambda.SumOfTwoIntegers" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -216,15 +292,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SumOfTwoIntegers" />
-      <item itemvalue="Application.CheckEmptyString" />
       <item itemvalue="Application.StringToUpperAndLowerCase" />
+      <item itemvalue="Application.FilterEvenOddNumbers" />
+      <item itemvalue="Application.SortStrings" />
+      <item itemvalue="Application.AverageOfDoubles" />
+      <item itemvalue="Application.RemoveDuplicates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.AverageOfDoubles" />
+        <item itemvalue="Application.SortStrings" />
+        <item itemvalue="Application.FilterEvenOddNumbers" />
         <item itemvalue="Application.StringToUpperAndLowerCase" />
-        <item itemvalue="Application.CheckEmptyString" />
-        <item itemvalue="Application.SumOfTwoIntegers" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +318,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711780197473</updated>
-      <workItem from="1711780200899" duration="3931000" />
+      <workItem from="1711780200899" duration="7211000" />
     </task>
     <task id="LOCAL-00001" summary="Lambda - check empty string">
       <created>1711782826487</created>
@@ -247,14 +327,22 @@
       <option name="project" value="LOCAL" />
       <updated>1711782826487</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lambda - convert strings to uppercase and lowercase">
+      <created>1711786203833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711786203833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3931000" />
+    <option name="totallyTimeSpent" value="7211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -265,7 +353,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -296,7 +384,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lambda - check empty string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda - check empty string" />
+    <MESSAGE value="Lambda - convert strings to uppercase and lowercase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda - convert strings to uppercase and lowercase" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/SumOfTwoIntegers.java">
@@ -329,8 +418,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/StringToUpperAndLowerCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+        <state relative-caret-position="462">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/FilterEvenOddNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/SortStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/AverageOfDoubles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java8/lambda/RemoveDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
